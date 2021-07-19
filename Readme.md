@@ -8,6 +8,15 @@
 6. Show odd numbered items for customer role
 
 To Run The project:
-1. Create Database
+1. Create Database with this below information.
+	Database: noticebox
+	User: root
+	Password: 
+
 2. Import Database
 3. Use Apache Server to run project in the local server
+
+To Login this Project
+UserName: Raman
+Password: iQ6sP4p3WMRXCA
+
