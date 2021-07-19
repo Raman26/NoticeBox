@@ -13,8 +13,6 @@ Author URI: https://raman26.github.io/profile/
 License: GPLv2 or later
 */
 
-//define('ABSPATH') or die('Hey, you can\t access this file, you silly human!');
-
 add_shortcode('notice_box','get_notice_box_menu');
 
 function get_notice_box_menu() {
@@ -76,7 +74,6 @@ function get_notice_box_menu() {
     }
 
     $html .= '</div>';
-   // $html .= wp_get_current_user();
 
     return $html;
 }
@@ -167,7 +164,6 @@ function tb_css() {
 
 add_action('wp_enqueue_scripts', 'load_js' );
 function load_js(){
-    //wp_deregister_script('jquery');
     wp_register_script( 
         'noticebox', 
         plugins_url('noticebox.js', __FILE__), 
